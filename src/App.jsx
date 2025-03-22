@@ -1,5 +1,7 @@
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
+import pattern from "./assets/pattern_top.jpg";
+
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -115,7 +117,7 @@ function App() {
   return (
     <main>
       <div className="container mx-auto">
-        <img src="assets/pattern_top.jpg" className="lg:w-1/3" />
+        <img src={pattern} className="lg:w-1/3" />
         <h1 className="text-3xl text-left">Hello</h1>
         <p className="text-4xl text-left">My name is</p>
         <h2 className="text-5xl text-left mb-4 text-teal-600 font-bold">
